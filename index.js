@@ -1,8 +1,12 @@
 import fetch from "node-fetch";
 import { createWriteStream } from "node:fs";
-let initialIndex = 10000,
-  finalIndex = 20000;
-console.log(`Downloading projects from ${initialIndex} to ${finalIndex}`);
+let initialIndex = 30000,
+  finalIndex = 32000;
+console.log(
+  `Downloading projects from ${initialIndex} to ${finalIndex} (${
+    finalIndex - initialIndex
+  } files)`
+);
 const getProject = (id) => {
   fetch(`https://sb3.micahlindley.com/${id}`).then((res) => {
     const dest = createWriteStream(`./projects/${id}.sb3`);
