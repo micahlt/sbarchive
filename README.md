@@ -8,7 +8,7 @@ The files all are automatically downloaded with the `.sb3` extension for compati
 
 ## Contributing projects
 
-Please, contribute!  First, clone this repo to your computer or a cloud machine with plenty of space.  See what the most recent project is (the largest filename in the `projects` folder), then edit the `index.js` file's `initialIndex` and `finalIndex` variables accordingly.  I recommend that you keep the `initialIndex` and `finalIndex` no more than 10000 apart - otherwise, you'll have some problems with RAM consumption.  Once you've downloaded a lot of files, make a commit with a message like this: 
+Please, contribute!  First, clone this repo to your computer or a cloud machine with plenty of space.  Second, run `npm install`.  Third, see what the most recent project is (the largest filename in the `projects` folder), then edit the `index.js` file's `initialIndex` and `finalIndex` variables accordingly.  I recommend that you keep the `initialIndex` and `finalIndex` no more than 10000 apart - otherwise, you'll have some problems with RAM consumption.  Once you've downloaded a lot of files, make a commit with a message like this: 
 
 ```
 [projects] to 36000
