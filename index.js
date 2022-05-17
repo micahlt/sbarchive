@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 import { createWriteStream } from "node:fs";
-let initialIndex = 32000,
-  finalIndex = 40000;
+let initialIndex = 40000,
+  finalIndex = 50000;
 console.log(
   `Downloading projects from ${initialIndex} to ${finalIndex} (${
     finalIndex - initialIndex
