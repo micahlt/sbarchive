@@ -41,24 +41,30 @@ function checkFile() {
     }
 
     if (data == notFoundHtml) {
+
         console.log(`File ${i} is BAD.`)
 
-        let rename = i + "-NotAvailable.txt"
+        fs.truncate(`${i}.sb3`, 0, function() {
+            console.log(`The contents of file ${i} have been erased.`)
 
-        fs.rename(`${i}.sb3`, rename, function(err) {
+            let rename = i + "-NotAvailable.txt"
+
+            fs.rename(`${i}.sb3`, rename, function(err) {
             if (err) {
                 console.log(err);
             }
-        });
+            console.log(`Renamed '${i}.sb3' to '${i}-NotAvailable.txt'`)
+            i++
+            checkNext()
+            });
 
-        console.log(`Renamed '${i}.sb3' to '${i}-NotAvailable.txt'`)
+        })
 
         } else {
             console.log(`File ${i} is OK.`)
+            i++
+            checkNext()
         }
-
-    i++
-    checkNext()
 
 });
 
