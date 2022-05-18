@@ -1,21 +1,47 @@
-import fetch from "node-fetch";
-import { createWriteStream } from "node:fs";
-let initialIndex = 40000,
-  finalIndex = 50000;
-console.log(
-  `Downloading projects from ${initialIndex} to ${finalIndex} (${
-    finalIndex - initialIndex
-  } files)`
-);
-const getProject = (id) => {
-  fetch(`https://sb3.micahlindley.com/${id}`).then((res) => {
-    const dest = createWriteStream(`./projects/${id}.sb3`);
-    res.body.pipe(dest);
-    dest.end();
-    console.log(`Wrote project ${id}`);
-  });
-};
+const fs = require('fs');
+const https = require('https');
 
-for (let i = initialIndex; i < finalIndex; i++) {
-  getProject(i);
+// File URL
+const url = `https://projects.scratch.mit.edu/`;
+
+// Set the project id to start at
+const startId = 1
+// Set the project id to stop at
+const endId = 100
+
+let i = startId
+
+function checkNext() {
+
+    if (i <= endId) {
+        getProject()
+    }
+
 }
+
+function getProject() {
+
+    // Download the file
+    https.get((url + i), (res) => {
+
+        // Create the file
+        const file = fs.createWriteStream(`projects/${i}.sb3`);
+
+        // Write data into the file
+        res.pipe(file);
+
+        // Close the file
+        file.on('finish', () => {
+            file.close();
+            console.log(`Project ${i} downloaded successfully!`);
+            i++
+            checkNext()
+        });
+
+    }).on("error", (err) => {
+        console.log("ERROR: ", err.message);
+    });
+
+}
+
+getProject();
