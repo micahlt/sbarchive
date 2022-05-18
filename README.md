@@ -18,4 +18,4 @@ Make a PR and I'll merge it!
 
 ## Future-proofing
 
-The projects are currently stored in this GitHub repository.  Once enough are downloaded that they exceed GitHub's limits, they will be moved to a free [200GB Oracle Block Volume](https://www.oracle.com/cloud/free/#oracle-advantage) where they will be publicly accessible through a server.
+The projects are currently stored in this GitHub repository.  Once enough are downloaded that they exceed GitHub's limits, they will be compressed and uploaded to the [Internet Archive](https://archive.org).
