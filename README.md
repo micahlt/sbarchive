@@ -5,7 +5,7 @@ Due to the Scratch Team planning to remove access to unshared projects (see [her
 ## Progress
 
 Shared Projects on Scratch: `>105,000,000` (From [Scratch Statistics](https://scratch.mit.edu/statistics/))  
-Total Projects on Scratch: `>600,000,000`  
+Total Projects on Scratch: `~600,000,000`  
 
 Projects Archived So Far: `50,000`  
 
@@ -13,7 +13,7 @@ Progress: `<0.1%`
 
 ## Opening Project Files
 
-All project files are uploaded to The Internet Archive and can be found [here](https://archive.org/details/scratch-projects).
+All project files are uploaded to The Internet Archive and can be downloaed for free. See [this]() section for the list of archives.
 
 The files all are automatically downloaded with the `.sb3` extension for compatibility, but some older projects may not import correctly.  If Scratch fails to import a project, then attempt to switch the file extension to either `.sb2` or `.sb`.
 
@@ -24,16 +24,24 @@ Steps to contribute:
 **1.** Clone this repository to your computer or a cloud machine.  
 **2.** Run `npm install`.  
 **3.** See what the most recent archived project is, then edit the `initialIndex` and `finalIndex` varibles in `index.js`.
+
 **4.** run or something  
+
 **5.** Once you've downloaded some project files
-**6.** Compress the project files as `.zip` to decrease the upload time and to save space.
+
+**0.** Change the `` & `` varibles and the path in `checkfile.js`.
+**0.** run `checkfile.js`
+
+**6.** Compress the project files as `.zip` to decrease the upload time and to save space. (use zip only)
 **7.**
 **8.**
+
+## Archives
 
 
 
 ## Licensing
 
-This repository is licenced under the [MIT License]().
+This repository is licenced under the [MIT License](https://github.com/micahlt/sbarchive/blob/master/LICENSE).
 
 All Scratch project files are licenced under the [Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)](https://creativecommons.org/licenses/by-sa/2.0/) licence.
