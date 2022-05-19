@@ -1,12 +1,22 @@
-# Unofficial archive of old Scratch projects
+# An Unofficial Archive of Scratch Projects
 
-Due to the Scratch Team planning to remove the ability to view unshared projects (https://github.com/LLK/scratch-www/pull/6773), I had the idea to archive as many old projects as possible with the purpose of preserving Scratch's community history.  
+Due to the Scratch Team planning to remove the ability to view unshared projects (see [here](https://github.com/LLK/scratch-www/pull/6773)), I had the idea to archive as many old projects as possible with the purpose of preserving Scratch's community history.
 
-## Opening projects
+## Progress
 
-The files all are automatically downloaded with the `.sb3` extension for compatibility, but some older projects may not import correctly.  If Scratch fails to import a project, then attempt to switch the file extension to either `.sb2` or `.sb`
+Shared Projects on Scratch: `100,000,000`  
 
-## Contributing projects
+Projects Archived So Far: `50,000`  
+
+Progress: `0%`
+
+## Opening Project Files
+
+All project files are uploaded to The Internet Archive and can be found [here]().
+
+The files all are automatically downloaded with the `.sb3` extension for compatibility, but some older projects may not import correctly.  If Scratch fails to import a project, then attempt to switch the file extension to either `.sb2` or `.sb`.
+
+## Contributing
 
 Please, contribute!  First, clone this repo to your computer or a cloud machine with plenty of space.  Second, run `npm install`.  Third, see what the most recent project is (the largest filename in the `projects` folder), then edit the `index.js` file's `initialIndex` and `finalIndex` variables accordingly.  I recommend that you keep the `initialIndex` and `finalIndex` no more than 10000 apart - otherwise, you'll have some problems with RAM consumption.  Once you've downloaded a lot of files, make a commit with a message like this: 
 
@@ -16,6 +26,8 @@ Please, contribute!  First, clone this repo to your computer or a cloud machine 
 
 Make a PR and I'll merge it!
 
-## Future-proofing
+## Licensing
 
-The projects are currently stored in this GitHub repository.  Once enough are downloaded that they exceed GitHub's limits, they will be compressed and uploaded to the [Internet Archive](https://archive.org).
+This repo is licenced under
+
+All Scratch project files are licenced under
