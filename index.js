@@ -1,47 +1,46 @@
-const fs = require('fs');
-const https = require('https');
+var http = require("https");
+var fs = require("fs");
+const API = "https://sb3.micahlindley.com";
+const START = 1;
+const END = 100;
 
-// File URL
-const url = `https://projects.scratch.mit.edu/`;
-
-// Set the project id to start at
-const startId = 1
-// Set the project id to stop at
-const endId = 100
-
-let i = startId
-
-function checkNext() {
-
-    if (i <= endId) {
-        getProject()
-    }
-
-}
-
-function getProject() {
-
-    // Download the file
-    https.get((url + i), (res) => {
-
-        // Create the file
-        const file = fs.createWriteStream(`projects/${i}.sb3`);
-
-        // Write data into the file
-        res.pipe(file);
-
-        // Close the file
-        file.on('finish', () => {
-            file.close();
-            console.log(`Project ${i} downloaded successfully!`);
-            i++
-            checkNext()
+let i = START;
+var download = function (method) {
+  if (!method) method = "getsb3";
+  var file = fs.createWriteStream(`projects/${i}.sb3`);
+  console.log(`Downloading ${i}.sb3 [${method}]`);
+  if (method == "getsb3") {
+    http.get(API + "/" + i, function (response) {
+      if (response.statusCode > 500) {
+        download("scratchapi");
+      } else if (response.statusCode == 200) {
+        response.pipe(file);
+        file.on("finish", function () {
+          file.close(() => {
+            i++;
+            if (i < END) setTimeout(download, 150);
+          });
         });
-
-    }).on("error", (err) => {
-        console.log("ERROR: ", err.message);
+      } else {
+        console.log("Error downloading:", response.statusCode);
+      }
     });
+  } else {
+    http.get("https://projects.scratch.mit.edu/" + i, function (response) {
+      if (response.statusCode > 500) {
+      } else if (response.statusCode == 200) {
+        response.pipe(file);
+        file.on("finish", function () {
+          file.close(() => {
+            i++;
+            if (i < END) setTimeout(download, 150);
+          });
+        });
+      } else {
+        console.log("Error downloading:", response.statusCode);
+      }
+    });
+  }
+};
 
-}
-
-getProject();
+download();
