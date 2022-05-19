@@ -13,7 +13,7 @@ Progress: `<0.1%`
 
 ## Opening Project Files
 
-All project files are uploaded to The Internet Archive and can be found [here]().
+All project files are uploaded to The Internet Archive and can be found [here](https://archive.org/details/scratch-projects).
 
 The files all are automatically downloaded with the `.sb3` extension for compatibility, but some older projects may not import correctly.  If Scratch fails to import a project, then attempt to switch the file extension to either `.sb2` or `.sb`.
 
@@ -31,6 +31,6 @@ Make a PR and I'll merge it!
 
 ## Licensing
 
-This repository is licenced under
+This repository is licenced under the MIT License.
 
 All Scratch project files are licenced under the [Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)](https://creativecommons.org/licenses/by-sa/2.0/) licence.
