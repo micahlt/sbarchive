@@ -7,7 +7,7 @@ Due to the Scratch Team planning to remove access to unshared projects (see [her
 Shared Projects on Scratch: `>105,000,000` (From [Scratch Statistics](https://scratch.mit.edu/statistics/))  
 Total Projects on Scratch: `>600,000,000`  
 
-Projects Archived So Far: `100,000`  
+Projects Archived So Far: `50,000`  
 
 Progress: `<0.1%`
 
@@ -19,15 +19,16 @@ The files all are automatically downloaded with the `.sb3` extension for compati
 
 ## Contributing
 
-
-Due to GitHub file limits, all archived files must be uploaded to [The Internet Archive]().
-
+Steps to contribute:
 
 **1.** Clone this repository to your computer or a cloud machine.  
 **2.** Run `npm install`.  
-**3.** See what the most recent project is (the largest filename in the `projects` folder), then edit the `index.js` file's `initialIndex` and `finalIndex` variables accordingly.  
-**4.** I recommend that you keep the `initialIndex` and `finalIndex`.  
-**5.** Once you've downloaded a lot of files, make a commit with a message like this: 
+**3.** See what the most recent archived project is, then edit the `initialIndex` and `finalIndex` varibles in `index.js`.
+**4.** run or something  
+**5.** Once you've downloaded some project files
+**6.** Compress the project files as `.zip` to decrease the upload time and to save space.
+**7.**
+**8.**
 
 
 
