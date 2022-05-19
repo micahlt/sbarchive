@@ -1,8 +1,8 @@
 var http = require("https");
 var fs = require("fs");
 const API = "https://sb3.micahlindley.com";
-const START = 1;
-const END = 100;
+const START = 100;
+const END = 1000;
 
 let i = START;
 var download = function (method) {
@@ -36,8 +36,15 @@ var download = function (method) {
             if (i < END) setTimeout(download, 150);
           });
         });
-      } else {
-        console.log("Error downloading:", response.statusCode);
+      } else if (response.statusCode == 404) {
+        console.log("Project not found.");
+        file.close();
+        fs.unlink(`projects/${i}.sb3`, () => {
+          fs.writeFileSync(`projects/${i}-notfound.sb3`, "", () => {
+            i++;
+            if (i < END) setTimeout(download, 150);
+          });
+        });
       }
     });
   }
