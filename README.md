@@ -7,7 +7,7 @@ Due to the Scratch Team planning to remove access to unshared projects (see [her
 Shared Projects on Scratch: `>105,000,000` (From [Scratch Statistics](https://scratch.mit.edu/statistics/))  
 Total Projects on Scratch: `~600,000,000`  
 
-Projects Archived So Far: `50,000`  
+Projects Archived So Far: `70,000`  
 
 Progress: `<0.1%`
 
@@ -26,10 +26,10 @@ Steps to contribute:
 **3.** See what the most recent archived project is, then edit the `START` and `END` varibles in `index.js`.  
 **4.** Run `index.js`.  
 **5.** Wait until all of the files have downloaded.  
-**6.** Put the project files into a folder and compress it as a `.zip`, to decrease the upload time and to save space. (Be sure to use `.zip`. Other formats such as `.7izp` & `.tar` don't allow the downloading of individual files.)  
+**6.** Put the project files into a folder and compress it as a `.zip`. (Be sure to use `.zip`. Other formats such as `.7izp` & `.tar` don't allow the downloading of individual files.)  
 **7.** Go to [The Internet Archive](https://archive.org) and create an account. (If you don't already have one.)  
 **8.** Create a new page and upload your `.zip` file.  
-**9.** Create an issue like the one below, so we can add it to the chart [here](#archives).  
+**9.** Create an issue like the one below, so we can add it to the [chart](#archives).  
 
 ```
 Archive Contribution
@@ -48,7 +48,7 @@ Below is a chart of all the Scratch project archive pages on The Internet Archiv
 
 | Link | Archived by | Project IDs |
 | ---- | ----------- | ----------- |
-| [link](https://archive.org/details/scratch-projects) | @MagentaSuperNova | 1-50000 |
+| [link](https://archive.org/details/scratch-projects) | @MagentaSuperNova | 1-70000 |
 
 ## Licensing
 
