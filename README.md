@@ -24,24 +24,31 @@ Steps to contribute:
 **1.** Clone this repository to your computer or a cloud machine.  
 **2.** Run `npm install`.  
 **3.** See what the most recent archived project is, then edit the `START` and `END` varibles in `index.js`.  
-**4.** run or something  
-**5.** Once you've downloaded some project files  
-**6.** Change the `startId` & `endId` varibles and the path in `checkFiles.js`.  
-**7.** run `checkFiles.js`  
-**8.** Compress the project files as `.zip` to decrease the upload time and to save space. (use `.zip` only)  
-**9.** Go to [The Internet Archive]() and create an account. (if you don't already have one)  
-**10.** Create a new archive page and upload your `.zip` file.  
-**11.** Create an issue with the link to the archive page, and the range of project IDs, so we can add it to the list below.  
+**4.** Run `index.js`.  
+**5.** Wait until all of the files have downloaded.  
+**6.** Put the project files into a folder and compress it as a `.zip`, to decrease the upload time and to save space. (Be sure to use `.zip`. Other formats such as `.7izp` & `.tar` don't allow the downloading of individual files.)  
+**7.** Go to [The Internet Archive](https://archive.org) and create an account. (If you don't already have one.)  
+**8.** Create a new page and upload your `.zip` file.  
+**9.** Create an issue like the one below, so we can add it to the chart [here](#archives).  
+
+```
+Archive Contribution
+
+Link: https://archive.org/details/scratch-projects
+Project IDs: 1-50000
+```
+
+**10.** That's it. Thanks for contributing.
 
 Huge thanks to all contributers!
 
 ## Archives
 
-Below is a chart of all archive pages.
+Below is a chart of all the Scratch project archive pages on The Internet Archive.
 
 | Link | Archived by | Project IDs |
 | ---- | ----------- | ----------- |
-| [+]() | @MagentaSuperNova | 1-50000 |
+| [link](https://archive.org/details/scratch-projects) | @MagentaSuperNova | 1-50000 |
 
 ## Licensing
 
