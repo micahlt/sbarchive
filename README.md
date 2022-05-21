@@ -1,4 +1,4 @@
-# An Unofficial Archive of Scratch Projects
+# Unofficial archive of Scratch projects
 
 Due to the Scratch Team planning to remove access to unshared projects (see [here](https://github.com/LLK/scratch-www/pull/6773)), I had the idea to archive as many old projects as possible with the purpose of preserving Scratch's community history.
 
@@ -11,7 +11,7 @@ Projects Archived So Far: `70,000`
 
 Progress: `<0.1%`
 
-## Opening Project Files
+## Opening project files
 
 All project files are uploaded to The Internet Archive and can be downloaed for free. See [this](#archives) section for the list of archives.
 
@@ -40,7 +40,7 @@ Project IDs: 1-50000
 
 **10.** That's it. Thanks for contributing.
 
-Huge thanks to all contributers!
+Huge thanks to all contributors!
 
 ## Archives
 
@@ -52,6 +52,6 @@ Below is a chart of all the Scratch project archive pages on The Internet Archiv
 
 ## Licensing
 
-This repository is licenced under the [MIT License](https://github.com/micahlt/sbarchive/blob/master/LICENSE).
+This repository is licensed under the [MIT License](https://github.com/micahlt/sbarchive/blob/master/LICENSE).
 
-All Scratch project files are licenced under the [Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)](https://creativecommons.org/licenses/by-sa/2.0/) licence.
+All Scratch project files are licensed under the [Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)](https://creativecommons.org/licenses/by-sa/2.0/) licensed.
