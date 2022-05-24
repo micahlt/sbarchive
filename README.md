@@ -1,13 +1,13 @@
 # Unofficial archive of Scratch projects
 
-Due to the Scratch Team planning to remove access to unshared projects (see [here](https://github.com/LLK/scratch-www/pull/6773)), I had the idea to archive as many old projects as possible with the purpose of preserving Scratch's community history.
+Due to the Scratch Team planning to remove access to unshared projects (see [here](https://github.com/LLK/scratch-www/pull/6773)), I had the idea to archive as many old projects as possible with the purpose of preserving Scratch's community history.  An easy-to-use frontend to search projects can be found [here](https://sa.micahlindley.com).
 
 ## Progress
 
 Shared Projects on Scratch: `>105,000,000` (From [Scratch Statistics](https://scratch.mit.edu/statistics/))  
 Total Projects on Scratch: `~600,000,000`  
 
-Projects Archived So Far: `70,000`  
+Projects Archived So Far: `79,999`  
 
 Progress: `<0.1%`
 
