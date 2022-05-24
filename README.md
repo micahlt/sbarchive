@@ -55,4 +55,4 @@ Below is a chart of all the Scratch project archive pages on The Internet Archiv
 
 This repository is licensed under the [MIT License](https://github.com/micahlt/sbarchive/blob/master/LICENSE).
 
-All Scratch project files are licensed under the [Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)](https://creativecommons.org/licenses/by-sa/2.0/) licensed.
+All Scratch project files are under the [Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)](https://creativecommons.org/licenses/by-sa/2.0/) license.
