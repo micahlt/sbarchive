@@ -19,7 +19,7 @@ The files all are automatically downloaded with the `.sb3` extension for compati
 
 ## Contributing
 
-Steps to contribute:
+Not a tech wizard? Use [this](https://github.com/MagentaSuperNova/SB-Auto) tool and skip to step 5.
 
 **1.** Clone this repository to your computer or a cloud machine.  
 **2.** Run `npm install`.  
