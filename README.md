@@ -7,7 +7,7 @@ Due to the Scratch Team planning to remove access to unshared projects (see [her
 Shared Projects on Scratch: `>105,000,000` (From [Scratch Statistics](https://scratch.mit.edu/statistics/))  
 Total Projects on Scratch: `~600,000,000`  
 
-Projects Archived So Far: `90,000`  
+Projects Archived So Far: `100,000`  
 
 Progress: `<0.1%`
 
@@ -48,7 +48,7 @@ Below is a chart of all the Scratch project archive pages on The Internet Archiv
 
 | Link | Archived by | Project IDs |
 | ---- | ----------- | ----------- |
-| [link](https://archive.org/details/scratch-projects) | @MagentaSuperNova | 1-90000 |
+| [link](https://archive.org/details/scratch-projects) | @MagentaSuperNova | 1-100000 |
 | [link](https://archive.org/details/70000-80000) | @CodeLikeCrazE | 70000-79999 |
 | [link](https://archive.org/details/scratch-200000-210000) | @DogCatPuppyLover | 200001-210000 |
 
