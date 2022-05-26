@@ -48,7 +48,7 @@ Below is a chart of all the Scratch project archive pages on The Internet Archiv
 
 | Link | Archived by | Project IDs |
 | ---- | ----------- | ----------- |
-| [link](https://archive.org/details/scratch-projects) | @MagentaSuperNova | 1-70000 |
+| [link](https://archive.org/details/scratch-projects) | @MagentaSuperNova | 1-80000 |
 | [link](https://archive.org/details/70000-80000) | @CodeLikeCrazE | 70000-79999 |
 
 ## Licensing
