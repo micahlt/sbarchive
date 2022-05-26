@@ -48,9 +48,9 @@ Below is a chart of all the Scratch project archive pages on The Internet Archiv
 
 | Link | Archived by | Project IDs |
 | ---- | ----------- | ----------- |
-| [link](https://archive.org/details/scratch-projects) | @MagentaSuperNova | 1-100000 |
-| [link](https://archive.org/details/70000-80000) | @CodeLikeCrazE | 70000-79999 |
-| [link](https://archive.org/details/scratch-200000-210000) | @DogCatPuppyLover | 200001-210000 |
+| [link](https://archive.org/details/scratch-projects) | [@MagentaSuperNova](https://github.com/MagentaSuperNova) and [@micahlt](https://github.com/micahlt) | 1-100000 |
+| [link](https://archive.org/details/70000-80000) | [@CodeLikeCrazE](https://github.com/CodeLikeCrazE) | 70000-79999 |
+| [link](https://archive.org/details/scratch-200000-210000) | [@DogCatPuppyLover](https://github.com/DogCatPuppyLover) | 200001-210000 |
 
 ## Licensing
 
