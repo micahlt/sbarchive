@@ -50,6 +50,7 @@ Below is a chart of all the Scratch project archive pages on The Internet Archiv
 | ---- | ----------- | ----------- |
 | [link](https://archive.org/details/scratch-projects) | @MagentaSuperNova | 1-90000 |
 | [link](https://archive.org/details/70000-80000) | @CodeLikeCrazE | 70000-79999 |
+| [link](https://archive.org/details/scratch-200000-210000) | @DogCatPuppyLover | 200001-210000 |
 
 ## Licensing
 
