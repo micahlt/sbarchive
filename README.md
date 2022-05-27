@@ -19,17 +19,18 @@ The files all are automatically downloaded with the `.sb3` extension for compati
 
 ## Contributing
 
-Not a tech wizard? Use [this](https://github.com/MagentaSuperNova/SB-Auto) tool and skip to step 5.
+Not a tech wizard? Use [this](https://github.com/MagentaSuperNova/SB-Auto) tool and skip to step 6.
 
 **1.** Clone this repository to your computer or a cloud machine.  
 **2.** Run `npm install`.  
-**3.** See what the most recent archived project is, then edit the `START` and `END` varibles in `index.js`.  
-**4.** Run `index.js`.  
-**5.** Wait until all of the files have downloaded.  
-**6.** Put the project files into a folder and compress it as a `.zip`. (Be sure to use `.zip`. Other formats such as `.7izp` & `.tar` don't allow the downloading of individual files.)  
-**7.** Go to [The Internet Archive](https://archive.org) and create an account. (If you don't already have one.)  
-**8.** Create a new page and upload your `.zip` file.  
-**9.** Create an issue like the one below, so we can add it to the [chart](#archives).  
+**3.** Create a new directory named `projects`.  
+**4.** See what the most recent archived project is, then edit the `START` and `END` varibles in `index.js`.  
+**5.** Run `index.js`.  
+**6.** Wait until all of the files have downloaded.  
+**7.** Put the project files into a folder and compress it as a `.zip`. (Be sure to use `.zip`. Other formats such as `.7izp` & `.tar` don't allow the downloading of individual files.)  
+**8.** Go to [The Internet Archive](https://archive.org) and create an account. (If you don't already have one.)  
+**9.** Create a new page and upload your `.zip` file.  
+**10.** Create an issue like the one below, so we can add it to the [chart](#archives).  
 
 ```
 Archive Contribution
@@ -38,7 +39,7 @@ Link: https://archive.org/details/scratch-projects
 Project IDs: 1-50000
 ```
 
-**10.** That's it. Thanks for contributing.
+**11.** That's it. Thanks for contributing.
 
 Huge thanks to all contributors!
 
