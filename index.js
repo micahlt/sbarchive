@@ -5,9 +5,8 @@ const START = 70113;
 const END = 80000;
 
 let i = START;
-var download = function (method) {
-  if (!method) method = "getsb3";
-  var file = fs.createWriteStream(`projects/${i}.sb3`);
+const download = (method = "getsb3") => {
+  const file = fs.createWriteStream(`projects/${i}.sb3`);
   console.log(`Downloading ${i}.sb3 [${method}]`);
   if (method == "getsb3") {
     http.get(API + "/" + i, function (response) {
